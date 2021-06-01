@@ -1,0 +1,142 @@
+Script started on 2021-04-28 06:15:03-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ exit[A]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./e 30 1 1[A]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ g++  -o p -pthread s.cpp 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ g++  -o p -pthread s.cpp [A]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ exit[K[A]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./e 30 1 1[1P[1@p
+---Main Thread Running----
+Producer Thread 353011456 sleeps for 3 second
+Producer produced an item at thread: 353011456 with value: 10
+Insert_item inserted item: 10 at position 0
+10 0 0 0 0 
+Consumer Thread 353011456 sleeps for 1 second
+Consumer consumes an item at thread: 353011456 with value: 10
+Remove_item removed item: 10 at position 0
+0 0 0 0 0 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 1 1[1P 13 10 10 1[1P 1[1P 1[C[C[K2
+---Main Thread Running----
+Producer Thread 1405482752 sleeps for 3 second
+Producer produced an item at thread: 1397090048 with value: 92
+Insert_item inserted item: 92 at position 0
+92 0 0 0 0 
+Producer Thread 1388697344 sleeps for 3 second
+Producer produced an item at thread: 1388697344 with value: 46
+Insert_item inserted item: 46 at position 1
+92 46 0 0 0 
+Producer Thread 1380304640 sleeps for 2 second
+Producer produced an item at thread: 1380304640 with value: 94
+Insert_item inserted item: 94 at position 2
+92 46 94 0 0 
+Consumer Thread 1380304640 sleeps for 2 second
+Consumer consumes an item at thread: 1380304640 with value: 94
+Remove_item removed item: 94 at position 2
+92 46 0 0 0 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 3 2[K[K[K2 2
+---Main Thread Running----
+Producer Thread 1449912064 sleeps for 4 second
+Producer produced an item at thread: 1441519360 with value: 72
+Insert_item inserted item: 72 at position 0
+72 0 0 0 0 
+Producer Thread 1433126656 sleeps for 1 second
+Producer produced an item at thread: 1433126656 with value: 7
+Insert_item inserted item: 7 at position 1
+72 7 0 0 0 
+Producer Thread 1433126656 sleeps for 3 second
+Producer produced an item at thread: 1433126656 with value: 84
+Insert_item inserted item: 84 at position 2
+72 7 84 0 0 
+Consumer Thread 1433126656 sleeps for 2 second
+Consumer consumes an item at thread: 1433126656 with value: 84
+Remove_item removed item: 84 at position 2
+72 7 0 0 0 ]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 2 2[K3
+---Main Thread Running----
+Producer Thread 2124052224 sleeps for 4 second
+Producer produced an item at thread: 2115659520 with value: 41
+Insert_item inserted item: 41 at position 0
+41 0 0 0 0 
+Producer Thread 2107266816 sleeps for 1 second
+Producer produced an item at thread: 2107266816 with value: 76
+Insert_item inserted item: 76 at position 1
+41 76 0 0 0 
+Producer Thread 2098874112 sleeps for 2 second
+Producer produced an item at thread: 2098874112 with value: 85
+Insert_item inserted item: 85 at position 2
+41 76 85 0 0 
+Consumer Thread 2098874112 sleeps for 3 second
+Consumer consumes an item at thread: 2098874112 with value: 85
+Remove_item removed item: 85 at position 2
+41 76 0 0 0 
+Consumer Thread 2098874112 sleeps for 1 second
+Consumer consumes an item at thread: 2098874112 with value: 76
+Remove_item removed item: 76 at position 1
+41 0 0 0 0 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 2 3[K4
+---Main Thread Running----
+Producer Thread 727852800 sleeps for 2 second
+Producer produced an item at thread: 719460096 with value: 32
+Insert_item inserted item: 32 at position 0
+32 0 0 0 0 
+Producer Thread 711067392 sleeps for 2 second
+Producer produced an item at thread: 711067392 with value: 21
+Insert_item inserted item: 21 at position 1
+32 21 0 0 0 
+Consumer Thread 702674688 sleeps for 4 second
+Consumer consumes an item at thread: 702674688 with value: 21
+Remove_item removed item: 21 at position 1
+32 0 0 0 0 
+Producer Thread 694281984 sleeps for 4 second
+Producer produced an item at thread: 694281984 with value: 10
+Insert_item inserted item: 10 at position 1
+32 10 0 0 0 
+Consumer Thread 694281984 sleeps for 1 second
+Consumer consumes an item at thread: 694281984 with value: 10
+Remove_item removed item: 10 at position 1
+32 0 0 0 0 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 2 4[K[K[K4 2
+---Main Thread Running----
+Producer Thread 645031680 sleeps for 3 second
+Producer produced an item at thread: 636638976 with value: 83
+Insert_item inserted item: 83 at position 0
+83 0 0 0 0 
+Producer Thread 628246272 sleeps for 2 second
+Producer produced an item at thread: 628246272 with value: 22
+Insert_item inserted item: 22 at position 1
+83 22 0 0 0 
+Producer Thread 619853568 sleeps for 4 second
+Producer produced an item at thread: 619853568 with value: 22
+Insert_item inserted item: 22 at position 2
+83 22 22 0 0 
+Producer Thread 611460864 sleeps for 2 second
+Producer produced an item at thread: 611460864 with value: 52
+Insert_item inserted item: 52 at position 3
+83 22 22 52 0 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 4 2
+---Main Thread Running----
+Producer Thread 1202861824 sleeps for 3 second
+Producer produced an item at thread: 1202861824 with value: 77
+Insert_item inserted item: 77 at position 0
+77 0 0 0 0 
+Producer Thread 1194469120 sleeps for 1 second
+Producer produced an item at thread: 1194469120 with value: 93
+Insert_item inserted item: 93 at position 1
+77 93 0 0 0 
+Producer Thread 1186076416 sleeps for 3 second
+Producer produced an item at thread: 1186076416 with value: 33
+Insert_item inserted item: 33 at position 2
+77 93 33 0 0 
+Producer Thread 1177683712 sleeps for 3 second
+Producer produced an item at thread: 1177683712 with value: 77
+Insert_item inserted item: 77 at position 3
+77 93 33 77 0 
+Producer Thread 1169291008 sleeps for 3 second
+Producer produced an item at thread: 1169291008 with value: 34
+Insert_item inserted item: 34 at position 4
+77 93 33 77 34 
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ ./p 30 4 2[1P 21 2[C 2
+---Main Thread Running----
+Producer Thread 82974464 sleeps for 4 second
+Producer produced an item at thread: 82974464 with value: 31
+Insert_item inserted item: 31 at position 0
+31 0 0 0 0 
+Consumer Thread 74581760 sleeps for 4 second
+]0;abhishek@abhishek-HP-15-TS-Notebook-PC: ~/Desktop/Operating System/Assignment4[01;32mabhishek@abhishek-HP-15-TS-Notebook-PC[00m:[01;34m~/Desktop/Operating System/Assignment4[00m$ e xit
+exit
+
+Script done on 2021-04-28 06:16:54-07:00 [COMMAND_EXIT_CODE="0"]
